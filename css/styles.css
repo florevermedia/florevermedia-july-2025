@@ -10,6 +10,9 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+/* The color scheme we went with UwU: https://coolors.co/palette/ea8c55-c75146-ad2e24-81171b-540804 */
+
 :root {
 	--bs-blue: #0d6efd;
 	--bs-indigo: #6610f2;
@@ -11447,9 +11450,21 @@ html {
 .masthead .masthead-subheading {
 	font-size: 1.25rem;
 }
+
 .masthead .masthead-avatar {
-	width: 15rem;
+	width: 50%;
+	max-width: 300px;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 40px;
+	background-color: rgba(0,0,0,0.5);
 }
+.masthead .masthead-avatar:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
 
 @media (min-width: 992px) {
 	.masthead {
@@ -11541,7 +11556,8 @@ a {
 }
 
 .masthead-heading .i-am {
-	font-size: 0.3em;
+	font-size: 0.5em;
+	opacity: 0.8;
 }
 
 @media screen and (max-width: 775px) {
@@ -11561,7 +11577,7 @@ a {
 
 		min-height: calc(100vh - 80px);
 		margin-top: 80px;
-		padding: 15px !important;
+		padding: 15px 0 !important;
 		box-sizing: border-box;
 	}
 
@@ -11595,7 +11611,8 @@ a {
 		font-size: 2em;
 	}
 	.masthead-heading .i-am {
-		font-size: 0.5em;
+		font-size: 0.45em;
+		margin-bottom: 10px;
 	}
 
 	.page-section {
