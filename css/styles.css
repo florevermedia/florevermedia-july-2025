@@ -106,7 +106,6 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 	margin-bottom: 0.5rem;
 	/* OLD FONT is Montserrat */
 	/*font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
-	font-family: 'Press Start 2P', cursive;
 	font-weight: 700;
 	line-height: 1.2;
 }
@@ -11356,10 +11355,13 @@ html {
 }
 
 #mainNav {
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-	font-weight: 700;
+	font-weight: 200;
+
+	letter-spacing: 2px;
+
 }
 #mainNav .navbar-brand {
 	color: #fff;
@@ -11369,6 +11371,8 @@ html {
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
 	color: #fff;
+
+
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
 	color: rgb(84, 8, 4);
@@ -11519,12 +11523,14 @@ a {
 	color: #AD2E24;
 }
 
-.masthead-heading {
+.masthead .masthead-heading {
 	line-height: 1.2 !important;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 3em;
 }
 
 .masthead-heading .manuela-flores-text-container {
@@ -11535,7 +11541,7 @@ a {
 }
 
 .masthead-heading .i-am {
-	font-size: 0.5em;
+	font-size: 0.3em;
 }
 
 @media screen and (max-width: 775px) {
@@ -11575,6 +11581,7 @@ a {
 	}
 	.masthead-subheading span {
 		display: block;
+		line-height: 1.8;
 	}
 
 	.masthead .masthead-subheading {
