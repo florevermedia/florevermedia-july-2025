@@ -7,21 +7,21 @@
 		<meta name="author" content="" />
 		<title>Manuela Flores - Video Game Designer & Engineering Student</title>
 
-		<!-- Favicon-->
 		<link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/assets/fav/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/assets/fav/favicon-16x16.png">
 		<link rel="manifest" href="/assets/fav/site.webmanifest">
 
-		<!-- Font Awesome icons (free version)-->
-		<script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-		<!-- Google fonts-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-		<!-- Core theme CSS (includes Bootstrap)-->
 		<link href="css/styles.css" rel="stylesheet" />
 	</head>
 	<body id="page-top">
+
 		<!-- Navigation-->
 		<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
 			<div class="container">
@@ -39,13 +39,22 @@
 				</div>
 			</div>
 		</nav>
+
 		<!-- Masthead-->
 		<header class="masthead bg-primary text-white text-center">
 			<div class="container d-flex align-items-center flex-column">
 				<!-- Masthead Avatar Image-->
 				<img class="masthead-avatar mb-5" src="assets/img/manu.jpg" alt="..." />
 				<!-- Masthead Heading-->
-				<h1 class="masthead-heading text-uppercase mb-0">I am Manuela Flores</h1>
+				<h1 class="masthead-heading mb-0">
+				  <div class="i-am">I am</div>
+				  <br>
+				  <div class="manuela-flores-text-container">
+					<div>
+					  <span class="manuela-flores-text typer" data-words="Manuela Flores" data-delay="100" data-deleteDelay="1000" data-colors="white,cyan,yellow,lightgreen">I am Manuela Flores</span><span class="cursor" data-owner="main"></span>
+					</div>
+				  </div>
+				</h1>
 				<!-- Icon Divider-->
 				<div class="divider-custom divider-light">
 					<div class="divider-custom-line"></div>
@@ -53,9 +62,16 @@
 					<div class="divider-custom-line"></div>
 				</div>
 				<!-- Masthead Subheading-->
-				<p class="masthead-subheading font-weight-light mb-0">Game Designer - Systems Engineering Student - Mental Health Advocate</p>
+				<p class="masthead-subheading font-weight-light mb-0">
+				  <span>Game Designer</span>
+				  <span class="hyphen">-</span>
+				  <span>Systems Engineering Student</span>
+				  <span class="hyphen">-</span>
+				  <span>Mental Health Advocate</span>
+				</p>
 			</div>
 		</header>
+
 		<!-- Portfolio Section-->
 		<section class="page-section portfolio" id="portfolio">
 			<div class="container">
@@ -99,6 +115,7 @@
 				</div>
 			</div>
 		</section>
+
 		<!-- About Section-->
 		<section class="page-section bg-primary text-white mb-0" id="about-me">
 			<div class="container">
@@ -159,6 +176,7 @@
 				</div>
 			</div>
 		</section>
+
 		<!-- Footer-->
 		<footer class="footer text-center">
 			<div class="container">
@@ -282,10 +300,10 @@
 			</div>
 		</div>
 
-
-		<!-- Bootstrap core JS-->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-		<!-- Core theme JS-->
+		<script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+		<script async src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+		<script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
 		<script src="js/scripts.js"></script>
+
 	</body>
 </html>
