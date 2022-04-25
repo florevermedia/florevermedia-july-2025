@@ -11565,6 +11565,10 @@ a {
 		min-height: 106px;
 	}
 
+	.masthead .container {
+		padding: 0;
+	}
+
 	#mainNav {
 		min-height: 80px;
 		transition: 100ms ease;
@@ -11572,12 +11576,13 @@ a {
 
 	.masthead {
 		display: flex;
-		align-items: center;
+		align-items: top;
 		justify-content: center;
 
 		min-height: calc(100vh - 80px);
 		margin-top: 80px;
 		padding: 15px 0 !important;
+		padding-top: 0 !important;
 		box-sizing: border-box;
 	}
 
@@ -11589,7 +11594,11 @@ a {
 		margin: 0 !important;
 		margin-bottom: 30px !important;
 
-		width: 70%;
+		width: 100%;
+		max-width: 100%;
+		border-radius: 0 0 100% 100%;
+		max-height: 50%;
+		background-position: top;
 	}
 
 	.masthead-subheading .hyphen {
@@ -11608,10 +11617,10 @@ a {
 	}
 
 	.masthead .masthead-heading {
-		font-size: 2em;
+		font-size: 1.8em;
 	}
 	.masthead-heading .i-am {
-		font-size: 0.45em;
+		font-size: 12px;
 		margin-bottom: 10px;
 	}
 
