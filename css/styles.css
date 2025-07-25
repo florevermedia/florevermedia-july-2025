@@ -498,7 +498,7 @@ progress {
 }
 
 .card-title {
-	color: #e01172;
+	color: #fa487d;
 	text-align: center;
 	font-size: 1.8rem;
 	font-weight: 600;
@@ -3047,8 +3047,8 @@ textarea.form-control-lg {
 
 .btn-primary {
 	color: #fff;
-	background-color: #e01172;
-	border-color: #e01172;
+	background-color: #fa487d;
+	border-color: #fa487d;
 }
 .btn-primary:hover {
 	color: #fff;
@@ -3436,8 +3436,8 @@ textarea.form-control-lg {
 }
 
 .btn-outline-light {
-	color: #e01172;
-	border-color: #e01172;
+	color: #fa487d;
+	border-color: #fa487d;
 }
 .btn-outline-light:hover {
 	color: #000;
@@ -7779,7 +7779,7 @@ textarea.form-control-lg {
 }
 
 .text-dark-pink {
-	color: #e01172 !important;
+	color: #fa487d !important;
 }
 
 .text-dark-grey {
@@ -7829,7 +7829,7 @@ textarea.form-control-lg {
 
 .bg-primary {
 	--bs-bg-opacity: 1;
-	background-color: #e01172 !important;
+	background-color: #fa487d !important;
 }
 
 .bg-secondary {
@@ -11343,7 +11343,7 @@ html {
 	width: 100%;
 	max-width: 7rem;
 	height: 0.25rem;
-	background-color: #e01172;
+	background-color: #fa487d;
 	border-radius: 1rem;
 }
 .divider-custom .divider-custom-line:first-child {
@@ -11392,7 +11392,7 @@ html {
 	margin-top: 1rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
-	color: #e01172;
+	color: #fa487d;
 	font-weight: bold;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -11538,11 +11538,11 @@ html {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 	background-color: #ffeaed;
-	color: #e01172;
+	color: #fa487d;
 }
 
 .copyright {
-	background-color: #e01172;
+	background-color: #fa487d;
 }
 
 /* Custom CSS */
