@@ -498,8 +498,10 @@ progress {
 }
 
 .card-title {
-	color: #444444;
+	color: #e01172;
 	text-align: center;
+	font-size: 1.8rem;
+	font-weight: 600;
 }
 
 .card-text {
@@ -3434,8 +3436,8 @@ textarea.form-control-lg {
 }
 
 .btn-outline-light {
-	color: #f8f9fa;
-	border-color: #f8f9fa;
+	color: #e01172;
+	border-color: #e01172;
 }
 .btn-outline-light:hover {
 	color: #000;
@@ -4559,10 +4561,6 @@ textarea.form-control-lg {
 .card-body {
 	flex: 1 1 auto;
 	padding: 1rem 1rem;
-}
-
-.card-title {
-	margin-bottom: 0.5rem;
 }
 
 .card-subtitle {
@@ -6538,10 +6536,10 @@ textarea.form-control-lg {
 }
 
 .fixed-top {
-	position: fixed;
+	/* position: fixed;
 	top: 0;
 	right: 0;
-	left: 0;
+	left: 0; */
 	z-index: 1030;
 }
 
@@ -7780,6 +7778,14 @@ textarea.form-control-lg {
 	color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-dark-pink {
+	color: #e01172 !important;
+}
+
+.text-dark-grey {
+	color: #444444 !important;
+}
+
 .text-body {
 	--bs-text-opacity: 1;
 	color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
@@ -7823,12 +7829,17 @@ textarea.form-control-lg {
 
 .bg-primary {
 	--bs-bg-opacity: 1;
-	background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+	background-color: #e01172 !important;
 }
 
 .bg-secondary {
 	--bs-bg-opacity: 1;
 	background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.bg-light-pink{
+	--bs-bg-opacity: 1;
+	background-color: #ffeaed !important;
 }
 
 .bg-success {
@@ -11332,9 +11343,8 @@ html {
 	width: 100%;
 	max-width: 7rem;
 	height: 0.25rem;
-	background-color: #81171B;
+	background-color: #e01172;
 	border-radius: 1rem;
-	border-color: #2c3e50;
 }
 .divider-custom .divider-custom-line:first-child {
 	margin-right: 1rem;
@@ -11446,7 +11456,7 @@ html {
 }
 
 .masthead {
-	padding-top: calc(6rem + 74px);
+	padding-top: 6rem;
 	padding-bottom: 6rem;
 	position: relative;
 }
@@ -11475,7 +11485,7 @@ html {
 
 @media (min-width: 992px) {
 	.masthead {
-		padding-top: calc(6rem + 104px);
+		padding-top: 6rem;
 		padding-bottom: 6rem;
 	}
 	.masthead .masthead-heading {
@@ -11527,12 +11537,12 @@ html {
 .footer {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
-	background-color: #81171B;
-	color: #fff;
+	background-color: #ffeaed;
+	color: #e01172;
 }
 
 .copyright {
-	background-color: #540804;
+	background-color: #e01172;
 }
 
 /* Custom CSS */
